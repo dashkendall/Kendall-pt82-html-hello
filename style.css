@@ -1,0 +1,56 @@
+* {
+	border: 1px dashed red;  
+	min-height: 10px;
+}
+
+/* ABOVE -- debugging / building ^ */
+
+body {
+	background: white;
+	font-family: "Roboto", sans-serif;
+	margin: 10px;
+}
+
+.instagram {
+	background-color: white;
+	height: 700px;
+	width: 550px;
+	margin: 10px auto;
+}
+
+.instagram-header {
+	display: flex;
+	height: auto;
+	align-items: center;
+}
+
+#line1 {
+	font-weight: 900;
+}
+
+#line2 {
+	font-weight: 500;
+}
+
+#ellipsis {
+	margin-left: auto;
+}
+
+.instagram-header h1 {
+	font-size: 12px;
+}
+
+.instagram-header img {
+	width: auto;
+	height: 30px;
+	margin: auto 20px;
+}
+
+.instagram-image {
+	margin-top: 25px;
+}
+
+.instagram-image img {
+	width: 550px;
+	height: auto;
+}
