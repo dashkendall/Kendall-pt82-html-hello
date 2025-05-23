@@ -1,20 +1,20 @@
-* {
+/* * {
 	border: 1px dashed red;  
 	min-height: 10px;
-}
+} */
 
 /* ABOVE -- debugging / building ^ */
 
 body {
-	background: white;
+	background: black;
 	font-family: "Roboto", sans-serif;
 	margin: 10px;
 }
 
 .instagram {
 	background-color: white;
-	height: 700px;
-	width: 550px;
+	height: 650px;
+	width: 475px;
 	margin: 10px auto;
 }
 
@@ -22,35 +22,80 @@ body {
 	display: flex;
 	height: auto;
 	align-items: center;
+	padding-top: 11px;
 }
 
 #line1 {
-	font-weight: 900;
+	font-weight: 700;
 }
 
 #line2 {
-	font-weight: 500;
+	font-weight: 400;
+}
+
+#line1,
+#line2 {
+	margin-top: 0;
+	margin-bottom: 1px;
+}
+
+.header-words {
+	flex-direction: column;
+	gap: 0;
 }
 
 #ellipsis {
 	margin-left: auto;
-}
-
-.instagram-header h1 {
-	font-size: 12px;
+	margin-right: 13px;
+	font-size: 35px;
 }
 
 .instagram-header img {
 	width: auto;
-	height: 30px;
-	margin: auto 20px;
+	height: 28px;
+	margin: auto 10px;
 }
 
 .instagram-image {
-	margin-top: 25px;
+	margin-top: 16px;
 }
 
 .instagram-image img {
-	width: 550px;
+	width: 475px;
 	height: auto;
+}
+
+.instagram-icons{
+	display: flex;
+	padding: 17px;
+	font-size: 32px;
+}
+
+.icon-right {
+	margin: auto 0 auto auto;
+}
+
+#comment h5{
+	margin: 16px;
+}
+
+.likes-row {
+	font-size: 14px;
+}
+
+.likes-row,
+.instagram-comment {
+	margin: 8px 16px;
+	display: flex;
+	font-weight: 400;
+	word-spacing: 0px;
+	letter-spacing: 1px;
+	
+}
+
+.likes-names,
+.likes-extras {
+	font-weight: 700;
+	margin: auto 5px;
+
 }
